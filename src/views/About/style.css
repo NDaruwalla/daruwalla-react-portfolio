@@ -1,0 +1,35 @@
+.about-left {
+    background-color: #9cdde7;
+    text-align: left;
+}
+
+.about-photo {
+    width: 50vh;
+    margin-top: 10%;
+    margin-bottom: 20vh;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.viewAbout {
+    background-color: #9cdde7;
+}
+
+#aboutTitle {
+    padding-bottom: 2vh;
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+
+.bioText {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.25rem;
+}
+
+.bio {
+    text-align: center;
+    padding: 8px;
+    width: 70%;
+    margin-right: 25%;
+}
