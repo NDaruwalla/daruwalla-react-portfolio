@@ -1,0 +1,38 @@
+.viewResume {
+    background-color: #9cdde7;
+}
+
+#resumeTitle {
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    padding: 0;
+    text-decoration-line: underline;
+    
+}
+
+.resumeTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7vh;
+    font-size: 45px;
+    letter-spacing: 8px;
+    color: #203242;  
+    margin:auto;
+    text-decoration-line: underline;
+}
+.resumeTitle:hover {
+    color: gray;
+    text-decoration-line: underline;
+}
+
+
+.far {
+    margin: 12px;
+    color: #2a728f;
+  }
+  
+  .far:hover {
+    color: gray;
+  }
+  

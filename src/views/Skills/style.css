@@ -1,0 +1,36 @@
+/* I plan to transform the SKILLS section to a more visually appealing react skills bar with percentages */
+.viewSkills {
+    background-color: #9cdde7;
+    text-align: center;
+    margin: auto;
+}
+
+.skill {
+    list-style-type: none;
+    padding: .5%;
+    text-align: center;   
+}
+.skillHeader {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.skillList {
+    margin: auto;
+    padding: 0;  
+}
+
+.skill {
+    list-style-type: none;
+} 
+
+.skillsContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.skillsText {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.25rem;  
+}

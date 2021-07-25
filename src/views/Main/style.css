@@ -1,0 +1,184 @@
+html {
+    height: 100%;
+    background-color: #f5f5f5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-md {
+    width: 100%;
+    padding: 0;
+}
+
+.name {
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: .65em;
+    font-size: 4.25em;
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* styles the word Modern Web Designs in header*/
+.modern {
+    letter-spacing: .5em;
+    font-size: 3em;
+    padding-top: .5em;
+    /* padding-bottom: .5em; */
+    text-align: center;
+}
+
+/* styles the word "web" in Modern Web Designs in header*/
+.modern span {
+    font-style: italic;
+    font-size: 1em;
+    color: grey;
+}
+
+/* styling for the background image */
+/* image from freepik.com, no attribution required */
+.landing {
+    background-image: url("../../img/landing.svg");
+    /* opacity: .75; */
+    height: 100%;
+    height: 1000px;
+    /* specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.mobile-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 45px;
+    letter-spacing: 8px;
+    display: none;
+}
+
+/* styling for NICOLE DARUWALLA */
+.name {
+    letter-spacing: .325em;
+    font-size: 5em;
+    /* font-size: 1.625em; */
+  }
+
+.alignCenter {
+    text-align: center;
+    margin-top: 10%;
+    /* padding: 10px; */
+}
+
+/* styling for Designer & Developer text */
+.intro {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3em;
+    width: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* margin-top: 5%; */
+    background-color: none;
+    }
+
+.explore {
+    background-color: #f5f5f5;
+    color: darkslategrey;
+    border: darkslategrey solid 1px;
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 1.25em;
+    width: 8%;
+    /* margin-bottom: 10%; */
+}
+
+.readMore:hover {
+    background-color: #2a728f;
+    color: #f5f5f5;
+}
+
+/* .aboutButton {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutButton:hover {
+    color: #f5f5f5;
+    text-decoration: none;
+} */
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .right-image {
+        display: none;
+    }
+
+    .col-md {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .mobile-image {
+        background-image: url("../../img/landing.svg");
+        width: 100%;
+        height: 57vh;
+        z-index: -1000;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        margin-top: -293px;
+    }
+
+    .mobile-title {
+        display: block;
+    }
+
+    .alignCenter {
+        margin-top: 21vh;
+        margin-bottom: 20vh;
+    }
+
+}
+
+
+
+/* older iphones */
+@media (max-width: 320px) {
+    .right-image {
+        display: none;
+    }
+
+    .mobile-image {
+        background-image: url("../../img/landing.svg");
+        width: 100%;
+        height: 75vh;
+        z-index: -1000;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        margin-top: -290px;
+    }
+
+    /* h4 {
+        display: block;
+        text-align: center;
+        padding-top:315px;
+    } */
+
+    .intro-text {
+        /* height: 25vh; */
+        margin-top: 12vh;
+        margin-bottom: 10vh;
+    }
+
+}
