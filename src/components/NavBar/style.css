@@ -1,0 +1,74 @@
+.navbar {
+    background: transparent;
+    z-index: 50;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ }
+
+.name {
+    letter-spacing: .65em;
+    font-size: 2.5em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-brand {
+     font-size: 45px;
+    letter-spacing: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #203242;
+    margin: 0 auto;
+}
+
+/* styling for the nav bar links: PROJECTS, ABOUT, RESUME, CONTACT */
+.nav-item {
+    font-size: 1.5rem;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    color:#203242;
+   }
+
+/* styling for the nav bar links (HOVER): PROJECTS, ABOUT, RESUME, CONTACT */
+.nav-item:hover {
+    color: gray;
+  }
+
+.fa-bars {
+    color: #203242;
+}
+
+button.navbar-toggler {
+    border-style: hidden;
+}
+
+button.navbar-toggler:active,
+button.navbar-toggler:visited {
+    border-style: hidden;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+}
+
+
+@media (max-width: 888px) {
+    li.nav-item.navbar-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar-brand {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 767px) { 
+    .navbar-brand {
+        display: none;
+    }
+}

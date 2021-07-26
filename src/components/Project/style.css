@@ -1,0 +1,74 @@
+.projectCard {
+  max-width: 75%;
+  margin: auto;
+  background-color: #f5f5f5;
+  border: none;
+}
+
+.card-title,
+.card-text {
+  margin: 12px;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+.repoLink,
+.siteLink {
+  color: #203242;
+}
+
+.repoBtn,
+.siteBtn {
+  background-color: #2a728f;
+  color: #f5f5f5;
+  border:  #1f5266 solid 1px;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-top: 10%;
+}
+
+.repoBtn:hover,
+.siteBtn:hover {
+  /* color: #338aad;
+  background-color: #f5f5f5; */
+  color: #f5f5f5;
+  background-color: gray;
+  border: darkslategray solid 1px;
+}
+
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 540px) {
+  .card {
+    text-align: center;
+  }
+  .card-title,
+  .card-text {
+    margin: 15px 0px 15px 0px;
+  }
+  .techUsed {
+    text-align: center;
+    float: none;
+  }
+  .technologies {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .repoBtn,
+  .siteBtn {
+    margin: 15px;
+  }
+  /* .logo {
+    padding: 5px;
+    margin-bottom: 10px;
+  } */
+}
