@@ -6,7 +6,7 @@ function SocialLinks() {
     <div className="row">
       <div className="row">
         <div className="col-sm-12 text-center fluid">
-          <h5> Let's work together.</h5>
+          <h5 className="letsWork"> Let's work together.</h5>
           <br></br>
         </div>
       </div>

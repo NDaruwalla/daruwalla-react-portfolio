@@ -5,9 +5,9 @@ import Projects from "./views/Projects";
 import Resume from "./views/Resume";
 import About from "./views/About";
 import Skills from "./views/Skills";
-import Contact from "./views/Contact";
+// import Contact from "./views/Contact";
 // CONTACT FORM CODE
-// import ContactForm from "./views/ContactForm";
+import ContactForm from "./views/ContactForm";
 
 function App() {
   return (
@@ -18,7 +18,9 @@ function App() {
             <About />
             <Skills />
             <Resume />
-            <Contact />
+            <ContactForm />
+            {/* <Contact /> */}
+         
           </div>
        </div>
   );

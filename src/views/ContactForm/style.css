@@ -1,0 +1,34 @@
+.viewContact {
+    margin-top: -10vh;
+    background-image: url("../../img/bottom.svg");
+    height: 100%;
+    /* image from freepik.com, no attribution required */
+    height: 1000px; /* specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;  /* Resize the background image to cover the entire container */
+}
+
+.formDiv {
+    width: 50%;      
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    background-color: none;
+}
+
+#contactTitle {
+    padding-bottom: 5%;
+}
+
+.contact-row {
+    margin-top: 10vh;
+    text-align: center;
+ }
+
+@media only screen and (max-width: 540px) {
+    .formDiv {
+        width: 80vw;
+    }
+}

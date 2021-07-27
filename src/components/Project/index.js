@@ -1,7 +1,7 @@
 import React from "react";
 // import React, { useState } from "react";
 import projects from "../../projects.json";
-import TechListItem from "../TechListItem";
+import MySkills from "../MySkills";
 import "./style.css";
 
 function Project() {
@@ -57,7 +57,7 @@ function Project() {
               <div className="row card-text">
                 <p>{project.about}</p>
                 <ul className="technologies">
-                  <TechListItem techItems={project.technologies}></TechListItem>
+                  <MySkills techItems={project.technologies}></MySkills>
                 </ul>
               </div>
               {checkRepoLink(project)}
