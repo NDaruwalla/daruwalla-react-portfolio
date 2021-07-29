@@ -1,38 +1,44 @@
+/* I plan to transform the SKILLS section to a more visually appealing react skills bar with percentages */
 .viewResume {
     background-color: #9cdde7;
-}
-
-#resumeTitle {
-    margin-top: 10vh;
-    margin-bottom: 8vh;
-    padding: 0;
-    text-decoration-line: underline;
-    
-}
-
-.resumeTitle {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 7vh;
-    font-size: 45px;
-    letter-spacing: 8px;
-    color: #203242;  
-    margin:auto;
-    text-decoration-line: underline;
-}
-.resumeTitle:hover {
-    color: gray;
-    text-decoration-line: underline;
+    margin: auto;
 }
 
+.skill {
+    list-style-type: none;
+    padding: .5%;
+    text-align: center;   
+}
 
-.far {
-    margin: 12px;
+.skillHeader {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.resumeLink {
+    margin: auto;
+    padding: 0;  
     color: #2a728f;
-  }
+}
+
   
-  .far:hover {
+.resumeLink:hover {
     color: gray;
   }
-  
+
+.resSkill {
+    text-decoration: underline;
+    margin: auto;
+} 
+
+.resumeContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.resumeText {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.25rem;  
+}
