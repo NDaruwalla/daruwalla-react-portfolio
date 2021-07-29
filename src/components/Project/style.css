@@ -25,7 +25,7 @@
   color: #f5f5f5;
   border:  #1f5266 solid 1px;
   border-radius: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   display: block;
   margin: auto;
   width: 60%;
@@ -34,8 +34,6 @@
 
 .repoBtn:hover,
 .siteBtn:hover {
-  /* color: #338aad;
-  background-color: #f5f5f5; */
   color: #f5f5f5;
   background-color: gray;
   border: darkslategray solid 1px;
@@ -67,8 +65,5 @@ a:hover {
   .siteBtn {
     margin: 15px;
   }
-  /* .logo {
-    padding: 5px;
-    margin-bottom: 10px;
-  } */
+
 }

@@ -3,12 +3,15 @@ import "./style.css";
 
 function Skills() {
     return (
+
         <div className="viewSkills" id="skills">
             <div className="row">
                 <div className="col-md">
                     <h3 className="viewTitle" id="skillsTitle">SKILLS</h3>
                     <div className="row align-self-center skillsText">
                         <p className="skillsContainer">
+
+
                          
                             <ul className=" skillList">
                          

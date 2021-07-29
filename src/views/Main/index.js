@@ -21,6 +21,8 @@ function MainPage() {
           <br></br>
           <br></br>
           <br></br>
+          <br></br>
+          <br></br>
           <Link to="projects"
            activeClass="active"
            spy={true}

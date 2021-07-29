@@ -5,8 +5,7 @@ import MySkills from "../MySkills";
 import "./style.css";
 
 function Project() {
-  // const open=[open, openState] = useState(false);
-
+ 
   function checkRepoLink(project) {
     console.log("inside repo function")
     if (project.repo !== null) {
@@ -69,6 +68,6 @@ function Project() {
     );
   });
 }
-//need to import the reactstrap button (1 for site, 1 for repo, 1 for the toggle)
+
 
 export default Project;

@@ -26,33 +26,33 @@
         "repo": "https://github.com/ndaruwalla/reciflixor",
         "site": "https://unh-bootcamp-projects.github.io/project-1-group-a/"
     },
+    
     {
-        "title": "RESTful Cabin Retreats",
-        "image": "https://i.imgur.com/n6ThTX1.jpg",
+        "title": "Fitness Tracker",
+        "image": "https://i.imgur.com/Qujr3Pe.jpg",
         "about": 
-            "RESTful Cabin Retreats was a team project created for world travelers to book a cabin vacations. We developed the application to demonstrate our ability to design, build and deploy a full-stack web application to Heroku. The application is in designed and built app using the Model, View, Controller (MVC) paradigm, our own server-side API, add user authentication, and database connection. We used Git branching workflow and Agile software development methodology.",
-        "technologies": ["HTML", "CSS", "JavaScript", "MySql", "Node", "Sequelize", "Bcrypt", "Dotenv", "Express", "Express-handlebars", "Express-session", "Restful API", "Heroku", "Github", "Git Bash", "flatpickr.js (calendar library)", "Draw SQL", "Adobe Photoshop", "TinyPNG", "Screencast", "Visual Studio Code","Slack", "Zoom"],
-        "repo": "https://github.com/scottgeleas/Restful-Cabin-Retreats",
-        "site": "https://restful-cabin-retreats.herokuapp.com/"
-    },
-    {
-        "title": "Zentechi Technology Blog",
-        "image": "https://i.imgur.com/KpekZzM.jpg",
-        "about": 
-            "Zentechi is a technology blog site. It is designed to be a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and also comment on other developers’ posts. This site was built and deployed to Heroku. It follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+            "This application enables fitness enthusiest to create and track resistance and cardio workouts. The user can view workout duration and pounds in the dashboard or resume a previous workout.",
         "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "MySql", "Node", "Sequelize", "Bcrypt", "Dotenv", "Express", "Express-handlebars", "Express-session", "Heroku", "Github", "Git Bash", "Draw SQL", "Visual Studio Code","Slack", "Zoom"],
-        "repo": "https://github.com/ndaruwalla/zentechi-technology-blog",
-        "site": "https://sheltered-mesa-69370.herokuapp.com/"
+        "repo": "https://github.com/NDaruwalla/fitness-tracker",
+        "site": "https://limitless-meadow-87557.herokuapp.com/?id=60f18cc9955a9a0015662eea"
     },
     {
-        "title": "Reciflixor",
-        "image": "https://i.imgur.com/CKehSrf.jpg",
+        "title": "Personal Day Planner",
+        "image": "https://i.imgur.com/EjxidGI.jpg",
         "about": 
-            "Reciflixor was a team project created to give movie lovers an opportunity to watch a movie and enjoy a meal from the movie. We developed the application to demonstrate our ability to design, build and deploy a web application that features Restful APIs to Heroku. We used Git branching workflow and Agile software development methodology.",
-        "technologies": ["HTML", "CSS", "Foundation CSS Framework", "JavaScript", "Server-side APIs (Youtube, The Movie Database)", "Github", "Slack", "Zoom"],
-        "repo": "https://github.com/ndaruwalla/reciflixor",
-        "site": "https://unh-bootcamp-projects.github.io/project-1-group-a/"
+            "This simple calendar application allows a user to save events for each hour of the day by  This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. The Moment.js library was implemented for the date and time. Some base html and css was provided and modified as needed.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Third-Party API", "Moment.js", "Github", "Slack", "Zoom"],
+        "repo": "https://github.com/NDaruwalla/day-planner",
+        "site": "https://ndaruwalla.github.io/day-planner/"
+    },
+    {
+        "title": "What's the Weather Like?",
+        "image": "https://i.imgur.com/xdFjVth.jpg",
+        "about": 
+            "This app is a simple weather dashboard using a third-party API that enabled access to weather data by making requests with specific parameters to a URL. The weather dashboard runs in the browser and features dynamically updated HTML and CSS. It includes a search option, a list of cities, and a five-day forecast and current weather conditions for Boston",
+        "technologies": ["HTML", "CSS", "JavaScript", "Server-side API (OpenWeather One Call API)", "localStorage", "Moment.js", "Github", "Slack", "Zoom"],
+        "repo": "https://github.com/NDaruwalla/weather",
+        "site": "https://ndaruwalla.github.io/weather/"
     }
-
 
 ]
