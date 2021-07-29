@@ -2,10 +2,11 @@ import React from "react";
 import "./style.css";
 import "../ResumePDF";
 import { Link } from "react-scroll";
+// import { Link, withRouter } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-md">
+    <nav className="navbar fixed-top navbar-expand-md">
 
       <button
         className="navbar-toggler"
@@ -83,3 +84,4 @@ function NavBar() {
 }
 
 export default NavBar;
+// export default withRouter (NavBar);

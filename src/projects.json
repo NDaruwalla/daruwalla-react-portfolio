@@ -25,6 +25,33 @@
         "technologies": ["HTML", "CSS", "Foundation CSS Framework", "JavaScript", "Server-side APIs (Youtube, The Movie Database)", "Github", "Slack", "Zoom"],
         "repo": "https://github.com/ndaruwalla/reciflixor",
         "site": "https://unh-bootcamp-projects.github.io/project-1-group-a/"
+    },
+    {
+        "title": "RESTful Cabin Retreats",
+        "image": "https://i.imgur.com/n6ThTX1.jpg",
+        "about": 
+            "RESTful Cabin Retreats was a team project created for world travelers to book a cabin vacations. We developed the application to demonstrate our ability to design, build and deploy a full-stack web application to Heroku. The application is in designed and built app using the Model, View, Controller (MVC) paradigm, our own server-side API, add user authentication, and database connection. We used Git branching workflow and Agile software development methodology.",
+        "technologies": ["HTML", "CSS", "JavaScript", "MySql", "Node", "Sequelize", "Bcrypt", "Dotenv", "Express", "Express-handlebars", "Express-session", "Restful API", "Heroku", "Github", "Git Bash", "flatpickr.js (calendar library)", "Draw SQL", "Adobe Photoshop", "TinyPNG", "Screencast", "Visual Studio Code","Slack", "Zoom"],
+        "repo": "https://github.com/scottgeleas/Restful-Cabin-Retreats",
+        "site": "https://restful-cabin-retreats.herokuapp.com/"
+    },
+    {
+        "title": "Zentechi Technology Blog",
+        "image": "https://i.imgur.com/KpekZzM.jpg",
+        "about": 
+            "Zentechi is a technology blog site. It is designed to be a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and also comment on other developers’ posts. This site was built and deployed to Heroku. It follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "MySql", "Node", "Sequelize", "Bcrypt", "Dotenv", "Express", "Express-handlebars", "Express-session", "Heroku", "Github", "Git Bash", "Draw SQL", "Visual Studio Code","Slack", "Zoom"],
+        "repo": "https://github.com/ndaruwalla/zentechi-technology-blog",
+        "site": "https://sheltered-mesa-69370.herokuapp.com/"
+    },
+    {
+        "title": "Reciflixor",
+        "image": "https://i.imgur.com/CKehSrf.jpg",
+        "about": 
+            "Reciflixor was a team project created to give movie lovers an opportunity to watch a movie and enjoy a meal from the movie. We developed the application to demonstrate our ability to design, build and deploy a web application that features Restful APIs to Heroku. We used Git branching workflow and Agile software development methodology.",
+        "technologies": ["HTML", "CSS", "Foundation CSS Framework", "JavaScript", "Server-side APIs (Youtube, The Movie Database)", "Github", "Slack", "Zoom"],
+        "repo": "https://github.com/ndaruwalla/reciflixor",
+        "site": "https://unh-bootcamp-projects.github.io/project-1-group-a/"
     }
 
 

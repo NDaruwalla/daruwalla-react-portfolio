@@ -34,18 +34,18 @@ const ContactForm = () => {
 
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+        <label className="formLabel" htmlFor="name">Name:</label>
+        <input className="pHolder" type="text" placeholder="Jane Doe" id="name" required />
       </div>
       <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
+        <label className="formLabel" htmlFor="email">Email:</label>
+        <input className="pHolder"type="email" placeholder="jdoe@email.com" id="email" required />
       </div>
       <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+        <label className="formLabel" htmlFor="message">Message:</label>
+        <textarea className="pHolder" placeholder="Type your message here." id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button className="explore" type="submit">{status}</button>
     </form>
 
     {/* <ContactForm /> */}
