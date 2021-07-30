@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Nicole Daruwalla - Website Designer & Front-end Developer
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+I used React to develop a webpage for potential employers to sample the work I have created. The projects included demonstrate my front-end and back-end web development skills. 
 
-### `yarn start`
+## Objective
+ To obtain an interview with a potential employer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Skills Hightlighted
+HTML, CSS, flexbox, media queries, JavaScript, Node JS, React, localStorage, PWA, and MySQL. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## User Story
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+AS a potential employer/hiring manager
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
-### `yarn build`
+## Screen Captures
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Portfolio - Sample Pages
+This screen capture shows my web portfolio's homepage appearance and navigation.
+![Homepage](./src/img/portfolio.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The dditional captures below show two additional page examples.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Projects](./src/img/portfolio-2.jpg)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Contact](./src/img/portfolio-3.jpg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Resume
+This screen capture shows an excerpt of the resume page.
+![Resume](./src/img/resume.jpg)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Key Features of this application
+* Potential employers can sample my previous work and view my resume
+* Potential employers can view my name, resume, a recent photo, learn about me, view my projects, and contact me via email or LinkedIn
+* The UI scrolls to the corresponding section
+* When the Portfolio link is clicked the UI scrolls to the section with titled images of my applications
+* Users can contact me through an email form in the contact section
+* When the application image is clicked the deployed application renders in the browser
+* The page is responsive to various screens and devices and the layout adapts to various viewports
+* A favicon is displayed in the browser tab
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployed application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The URL of the deployed application on GitHub Pages.
+https://ndaruwalla.github.io/daruwalla-react-portfolio/
 
-### Code Splitting
+## GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The URL of the GitHub repository that contains my code.
+https://github.com/NDaruwalla/daruwalla-react-portfolio
 
-### Analyzing the Bundle Size
+## Questions
+If you have questions or need help with this application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contact me on GitHub:
+[ndaruwalla](https://github.com/ndaruwalla)
+ 
+Or, via [Email](mailto:nicole.daruwalla@gmail.com)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
