@@ -108,20 +108,7 @@ html {
     width: 8%;
     /* margin-bottom: 10%; */
 }
-/* .readMore:hover {
-    background-color: #2a728f;
-    color: #f5f5f5;
-} */
 
-/* .aboutButton {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.aboutButton:hover {
-    color: #f5f5f5;
-    text-decoration: none;
-} */
 
 
 
@@ -192,5 +179,16 @@ html {
         margin-top: 12vh;
         margin-bottom: 10vh;
     }
+
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 280px) and (max-width: 487px) {
+
+}
+
+
+@media only screen and (min-width: 488px) and (max-width:930px) {
 
 }

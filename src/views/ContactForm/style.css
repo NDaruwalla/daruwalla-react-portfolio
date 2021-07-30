@@ -49,8 +49,20 @@
     /* margin-bottom: 10%; */
 }
 
-@media only screen and (max-width: 540px) {
+/* @media only screen and (max-width: 540px) {
     .formDiv {
         width: 80vw;
     }
+} */
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 280px) and (max-width: 487px) {
+
+}
+
+
+@media only screen and (min-width: 488px) and (max-width:930px) {
+
 }
